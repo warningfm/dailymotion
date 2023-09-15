@@ -1,6 +1,6 @@
 <h1 align="center"> Dailymotion_to_m3u </h1>
 
-[![M3U generator for Dailymotion](https://github.com/benmoose39/dailymotion_to_m3u/actions/workflows/grabber.yml/badge.svg)](https://github.com/benmoose39/dailymotion_to_m3u/actions/workflows/grabber.yml)
+[![M3U generator for Dailymotion](https://github.com/warningfm/dailymotion/actions/workflows/grabber.yml/badge.svg)](https://github.com/warningfmdailymotion/actions/workflows/grabber.yml)
 
 `https://raw.githubusercontent.com/benmoose39/dailymotion_to_m3u/main/dailymotion-{PREFERRED SERVER}.m3u`
 m3u links of Dailymotion live channels, auto-updated everyday.
