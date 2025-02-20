@@ -1,6 +1,15 @@
 #EXTM3U
 
+#########################################################################
+#      ____            _           _   __  __                           #
+#     |  _ \ _ __ ___ (_) ___  ___| |_|  \/  | ___   ___  ___  ___      #
+#     | |_) | '__/ _ \| |/ _ \/ __| __| |\/| |/ _ \ / _ \/ __|/ _ \     #
+#     |  __/| | | (_) | |  __/ (__| |_| |  | | (_) | (_) \__ \  __/     #
+#     |_|   |_|  \___// |\___|\___|\__|_|  |_|\___/ \___/|___/\___|     #
+#                   |__/                                                #
+#                                  >> https://github.com/benmoose39     #
+#########################################################################
 
 
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=960x540 group-title="" tvg-logo="" tvg-id="", Aswaja TV
-https://live-b.cf.dmcdn.net/sec2(UAOH-wN1aKs9MiE-sG3muH2WAr3YJrR0LzDTg11983UT3pT7MEyVXuHuLyOPYx-eM6FXfvawOd_E7tcp0pZeF-vteiwVRBcE_krUSOii0RkEsJGY1jpdjFzcNtZ-wHo_)/dm/3/x748iuo/s/live-240.m3u8#cell=lcfb
+https://live-c.cf.dmcdn.net/sec2(HLHYY9amCnUUe16m_nL4osrQ-phyeS8Hb18Wo8eFxoSt-xn5XjT6SMMGv_iTePBih9Kc7VCfQhWUAgeAvQW1totRnT2aaQZGo_hrVGUrTUUqsVfjcMWZggf28urO-mVt)/dm/3/x748iuo/s/live-240.m3u8#cell=lcfc
