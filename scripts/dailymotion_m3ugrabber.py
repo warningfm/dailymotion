@@ -27,7 +27,7 @@ na = 'https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/mo
 def grab(line):
     try:
         _id = line.split('/')[4]
-        response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}', proxies=proxies).json()['qualities']['720'][0]['url']
+        response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}', proxies=proxies).json()['qualities']['auto'][0]['url']
         m3u = s.get(response, proxies=proxies).text
         m3u = m3u.strip().split('\n')[1:]
         d = {}
@@ -61,7 +61,7 @@ with open('../dailymotion_channel_info.txt') as f:
             grp_title = line[1].strip().title()
             tvg_logo = line[2].strip()
             tvg_id = line[3].strip()
-            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=960x540 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
+            print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=1280x720 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
         else:
             grab(line)
         
