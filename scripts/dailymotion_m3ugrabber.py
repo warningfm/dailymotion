@@ -23,7 +23,7 @@ if len(sys.argv) == 2:
                 'https' : sys.argv[1]
               }
 
-na = 'https://cdn.nng.cloudns.us/live/m3u8/op/7335edf66aba711.m3u8'
+na = 'https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u'
 def grab(line):
     try:
         _id = line.split('/')[4]
