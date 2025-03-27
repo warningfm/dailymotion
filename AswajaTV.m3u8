@@ -11,5 +11,5 @@
 #########################################################################
 
 
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=960x540 group-title="" tvg-logo="" tvg-id="", Aswaja TV
-https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1500000,FRAME-RATE=25.000,RESOLUTION=1280x720 group-title="" tvg-logo="" tvg-id="", Aswaja TV
+https://live-b.cf.dmcdn.net/sec2(NkTT-tvdWflAR4_W1svR2BbWv5hB72VNnIyA8czzgcUJN2LXK6Nq07EGmJQPHWVdoWwGcpM9DC_imMKLFYLu8fb0WaxBLJ0pTUngnRhTQUDcvJlKXcHspm2o00koPXPJ)/dm/3/x8qckyq/s/live-240.m3u8#cell=lcfb
